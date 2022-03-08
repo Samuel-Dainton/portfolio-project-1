@@ -1,23 +1,52 @@
 # Escape Manchester
 
-## Responsive Layout
+The Escape Manchester website is a landing page for groups and individuals to learn more about the various Escape Rooms that operate in and around the city of Manchester, UK. It offers details of some of the rooms available such as their difficulty, recommended group size and a link to their website.
+
+Users can also sign up to the forum to talk to others that have a keen interest in these rooms to share their experiences and perhaps make new friends to tackle these challenges with. There are also social media links for the group and a newsletter signup link at the footer of the page.
+
+http://ami.responsivedesign.is/
+
+(Responsive picture)
 
 ## Features
 
+
+### Navigation
+### Header
+### Images
+### Footer
+### Other Page...
 We have a features section, which includes  screenshots of all the main features,  
 and a few lines about what each feature  does and why it benefits the user.
 
 ## Testing 
+
+* I tested that the page works in different browers i.e. Chrome, Firefox, Safari.
+* I tested that the site is responsive and adapts to look good and fuction properly on all standard screen sizes using the devtools built into Chrome.
+* I confirmed that all the nav elements work and that all the content is easy to read and understand using Lighthouse to score the sites accessibility.
+* I confirmed that all the form entry fields are set correctly, being required where necessary and only allowing the correct type of data input, such as the email field.
 
 Our testing section should prove to our assessor  that we have checked that our site functions as expected.
 We do this by outlining the manual testing  we have done, for example checking that the form  
 validates input. We also outline any bugs we  found while creating and testing our project  
 and what we did to fix them. If you have  unfixed bugs, you should detail them here too.
 
+## Bugs
+
+### Solved Bugs
+
+### Remaining Bugs
+
 ## Validator Testing
 
 * HTML
-  * No errors
+  * No errors were found when passing through the official W3C validator.
+
+* CSS
+ * No errors were found when passing through the official (Jigsaw) validator.
+
+* Accessibility
+ * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 W3c HTML Validator
 Accessibility score using Lighthouse
@@ -25,7 +54,24 @@ Accessibility score using Lighthouse
 As part of our testing we checked our project  using the W3C HTML validator and it passes, and  
 the W3C CSS validator and it all passes there as  well. So noting this in our README is important.
 
+## Deployment
 
+* This site was deployed to GitHub pages. The steps to deploy are as follows:
+ * In the GitHub reposittory, navigate to the Settings tab
+ * From the source section drop-down menu, select the Master Branch
+ * Once the master branch has been selected, the page provides the link to the completed website.
+
+The live link can be found here - _____
+
+## Credits
+
+### Content
+
+* The code to make the social media links was taken from the CI Love Running Project.
+
+### Media
+
+* The media was taken from stockphotos.com
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
