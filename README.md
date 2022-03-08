@@ -1,3 +1,34 @@
+# Escape Manchester
+
+## Responsive Layout
+
+## Features
+
+We have a features section, which includes  screenshots of all the main features,  
+and a few lines about what each feature  does and why it benefits the user.
+
+## Testing 
+
+Our testing section should prove to our assessor  that we have checked that our site functions as expected.
+We do this by outlining the manual testing  we have done, for example checking that the form  
+validates input. We also outline any bugs we  found while creating and testing our project  
+and what we did to fix them. If you have  unfixed bugs, you should detail them here too.
+
+## Validator Testing
+
+* HTML
+  * No errors
+
+W3c HTML Validator
+Accessibility score using Lighthouse
+
+As part of our testing we checked our project  using the W3C HTML validator and it passes, and  
+the W3C CSS validator and it all passes there as  well. So noting this in our README is important.
+
+
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Samuel Dainton,
