@@ -63,17 +63,19 @@ h1, h2 {
 
 /* Hero image and Text */
 
+#hero-img {
+    margin: 30px;
+    
+}
 
-
-#bee {
+#bee-img {
     height: 600px;
     width: 100%;
     background: url("../images/bee-image.jpg") no-repeat center center;
     overflow: hidden; 
-    margin: 30px;
-    border: whitesmoke 10px;
-    border-style: solid;
+    border: whitesmoke solid 10px;
     border-radius: 10px;
+    box-sizing: border-box;
 
 /* Focus animation */    
     animation-name: bee-focus;
@@ -90,4 +92,20 @@ h1, h2 {
     to{
         filter: blur(0);
     }
+}
+
+#bee-text, #bee-text h2 {
+    font-size: 130%;
+    color: black;
+    font-family: Zilla+Slab, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: #ff6826;
 }
