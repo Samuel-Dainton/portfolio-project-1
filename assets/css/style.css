@@ -1,11 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Zilla+Slab&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 html {
     background-color: #333;
 }
 
 body {
-    color: red;
+    color: whitesmoke;
     font-family: 'Acme', sans-serif;
     font-weight: 300;
+}
+
+/* Logo and Nav Links */
+
+h1, h2 {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: whitesmoke;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    background-color: #ff6826;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #ff6826;
+    border-radius: 5px;
 }
