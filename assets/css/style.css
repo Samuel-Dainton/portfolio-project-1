@@ -18,8 +18,7 @@ body {
 
 /* Logo and Nav Links */
 
-h1, h2 {
-    font-family: 'Acme', sans-serif;
+h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: whitesmoke;
@@ -65,11 +64,13 @@ h1, h2 {
 
 #hero-img {
     margin: 30px;
+
+    position: relative;
     
 }
 
 #bee-img {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/bee-image.jpg") no-repeat center center;
     overflow: hidden; 
@@ -94,18 +95,35 @@ h1, h2 {
     }
 }
 
-#bee-text, #bee-text h2 {
-    font-size: 130%;
+.bee-text, .bee-text h2 {
     color: black;
-    font-family: Zilla+Slab, sans-serif;
+    font-family: Zilla Slab, serif;
+}
+
+.bee-text {
+    font-size: 120%;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
 
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 10px;
 
-    background-color: #ff6826;
+    background-color: rgba(255, 104, 38, .7);
+    border-radius: 10px;
+
+    position: absolute;
+}
+
+#bee-text-left {
+    bottom: 30px;
+    left: 10%;
+}
+
+#bee-text-right {
+    bottom: 30px;
+    right: 10%;
 }
