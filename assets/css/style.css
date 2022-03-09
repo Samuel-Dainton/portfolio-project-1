@@ -61,25 +61,33 @@ h1, h2 {
     border-radius: 5px;
 }
 
+/* Hero image and Text */
+
+
+
 #bee {
     height: 600px;
     width: 100%;
-    background: url("../images/bee.jpg") no-repeat center;    
+    background: url("../images/bee-image.jpg") no-repeat center center;
+    overflow: hidden; 
+    margin: 30px;
+    border: whitesmoke 10px;
+    border-style: solid;
+    border-radius: 10px;
+
+/* Focus animation */    
+    animation-name: bee-focus;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-.focus {
-    -webkit-transition: all 1s ease;
-        -moz-transition: all 1s ease;
-             -o-transition: all 1s ease;
-          -ms-transition: all 1s ease;
-                 transition: all 1s ease; 
-       }
-.focus:hover{
-      border: 70px solid #000;
-      border-radius:50%;
-    -webkit-transition: all 1s ease;
-       -moz-transition: all 1s ease;
-            -o-transition: all 1s ease;
-         -ms-transition: all 1s ease;
-                transition: all 1s ease; 
-               }
+/* Focus animation code */
+
+@keyframes bee-focus {
+    from{
+        filter: blur(20px);
+    }
+    to{
+        filter: blur(0);
+    }
+}
