@@ -127,3 +127,11 @@ h1 {
     bottom: 30px;
     right: 10%;
 }
+
+.blackbeard-info {
+    width: 40%;
+    height: 300px;
+    color: whitesmoke;
+    background-color: #333;
+    float: left;
+}
