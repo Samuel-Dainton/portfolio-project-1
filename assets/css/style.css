@@ -60,3 +60,26 @@ h1, h2 {
     background-color: #ff6826;
     border-radius: 5px;
 }
+
+#bee {
+    height: 600px;
+    width: 100%;
+    background: url("../images/bee.jpg") no-repeat center;    
+}
+
+.focus {
+    -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+             -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+                 transition: all 1s ease; 
+       }
+.focus:hover{
+      border: 70px solid #000;
+      border-radius:50%;
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+         -ms-transition: all 1s ease;
+                transition: all 1s ease; 
+               }
