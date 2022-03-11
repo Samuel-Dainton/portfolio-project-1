@@ -62,11 +62,18 @@ h1 {
 
 #menu a:hover {
     background-color: #ff6826;
+    padding: 5px;
     border-radius: 5px;
+}
+
+.inactive {
+    background-color: #333;
+    padding: 5px;
 }
 
 .active {
     background-color: #ff6826;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -120,11 +127,21 @@ h1 {
 
 /* Featured room css */
 
+#feature-text {
+    text-align: center;
+    font-size: 180%;
+}
+
+#feature-list {
+    list-style-type: none;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px;
+    background-color: #ff6826;
 }
 
 .flex > div {
@@ -149,6 +166,7 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
+    padding-top: 30px;
   }
 
 .centered {
@@ -156,6 +174,10 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px;
+    /* Fix this */
+    background-color: #ff6826;
   }
 
   .break {

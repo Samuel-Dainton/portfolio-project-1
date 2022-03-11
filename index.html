@@ -26,10 +26,10 @@
             <div class="menu-list">
                 <ul id="menu">
                     <li>
-                        <a href="forum.html">Forum</a>
+                        <a href="forum.html" class="inactive">Forum</a>
                     </li>
                     <li>
-                        <a href="#">Escapes</a>
+                        <a href="#" class="inactive">Escapes</a>
                     </li>
                     <li>
                         <a href="index.html" class="active">Home</a>
@@ -42,7 +42,7 @@
     <!-- Section for the bee image and site intro text-->
 
     <div class="container">
-        <div class="hero"><img width="100%" src="assets/images/room-image.png" alt=""></div>
+        <div class="hero"><img width="100%" height="600px" src="assets/images/room-image.png" alt=""></div>
         <div class="centered">
             <h2>Dedicated to reviewing and promoting the various escape rooms of Manchester</h2>
             <h3>Spoiler Free</h3>
@@ -53,9 +53,18 @@
     <!-- Section for this weeks selection-->
 
     <section>
+        <div id="feature-text">This Weeks Featured Escape</div>
         <div class="flex">
             <div><img src="./assets/images/blackbeard-image.jpg" height="100%" width="100%" alt=""></div>
-            <div>20 20</div>
+            <div>
+                <ul id="feature-list">
+                    <li><i class="fa-solid fa-users"></i> Players: 2-6</li>
+                    <li><i class="fa-regular fa-clock"></i> Time: 60min</li>
+                    <li><i class="fa-solid fa-lock"></i> <i class="fa-solid fa-lock"></i> <i class="fa-solid fa-lock"></i> <i class="fa-solid fa-lock"></i> <i class="fa-solid fa-lock-open"></i></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -69,6 +78,10 @@
     <footer>
 
     </footer>
+
+    <!--Font Awesome Script-->
+    <script src="https://kit.fontawesome.com/7c2c940a73.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
