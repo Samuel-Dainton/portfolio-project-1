@@ -32,7 +32,7 @@ h1 {
     color: whitesmoke;
 }
 
-h3 {
+p {
     font-family: 'Zilla Slab', sans-serif;
 }
 
@@ -49,7 +49,8 @@ h3 {
     display: inline-flex;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -88,16 +89,16 @@ h3 {
     flex-direction: column;
     width: 100%;
     height: 600px;
-    
+
 }
 
-.hero-flex > div {
+.hero-flex>div {
     box-sizing: border-box;
     width: 100%;
     border: solid #333 10px;
-    
 
-/* Focus animation */    
+
+    /* Focus animation */
     animation-name: bee-focus;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -106,10 +107,11 @@ h3 {
 /* Focus animation code */
 
 @keyframes bee-focus {
-    from{
+    from {
         filter: blur(20px);
     }
-    to{
+
+    to {
         filter: blur(0);
     }
 }
@@ -131,9 +133,14 @@ h3 {
 
 /* Featured room css */
 
-#feature-text {
+#feature-title {
     text-align: center;
     font-size: 180%;
+}
+
+#feature-text {
+    text-align: center;
+    font-size: 120%;
 }
 
 #feature-list {
@@ -148,8 +155,8 @@ h3 {
     background-color: #ff6826;
 }
 
-.flex > div {
-    width: 40%;    
+.flex>div {
+    width: 40%;
     height: 400px;
     text-align: center;
     border: whitesmoke solid 5px;
@@ -171,7 +178,7 @@ h3 {
     text-align: center;
     color: white;
     padding-top: 30px;
-  }
+}
 
 .centered {
     position: absolute;
@@ -182,9 +189,27 @@ h3 {
     border-radius: 20px 20px 0px 20px;
     /* Fix this */
     background-color: #ff6826;
-  }
+}
 
-  .break {
-      width: 100%;
-      height: 100px;
-  }
+.break {
+    width: 100%;
+    height: 100px;
+}
+
+/* Details section */
+
+#details-image {
+    padding: 100px 0 100px 0;
+    background: url("/assets/images/bee-image.jpg") no-repeat center; 
+/* Fix this */    
+    background-color: none;
+}
+
+#details-image > h1 {
+    text-align: center;
+}
+
+#details-text {
+    display: flex;
+    justify-content: space-evenly;
+}
