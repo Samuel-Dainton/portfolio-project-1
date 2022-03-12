@@ -32,6 +32,10 @@ h1 {
     color: whitesmoke;
 }
 
+h3 {
+    font-family: 'Zilla Slab', sans-serif;
+}
+
 #logo {
     /* float: left; */
     font-size: 280%;
@@ -112,7 +116,7 @@ h1 {
 
 #room-image-text {
     color: black;
-    font-family: Zilla Slab, serif;
+    font-family: 'Zilla Slab', serif;
 
     font-size: 120%;
     text-transform: uppercase;
