@@ -248,3 +248,27 @@ footer {
     padding: 5%;
     color: whitesmoke;
 }
+
+/* Escapes Page */
+
+.escapes-title {
+    padding-top: 30px;
+}
+
+.escapes-title > h1 p {
+    text-align: center;
+    font-size: 200%;
+}
+
+.escapes-type {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: blue;
+}
