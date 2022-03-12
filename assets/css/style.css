@@ -206,10 +206,32 @@ p {
 }
 
 #details-image > h1 {
-    text-align: center;
+    text-align: centergit;
 }
 
 #details-text {
     display: flex;
     justify-content: space-evenly;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: whitesmoke;
 }
