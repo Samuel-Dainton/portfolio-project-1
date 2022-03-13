@@ -282,6 +282,7 @@ p {
     border-radius: 10px;
     padding: 10px;
     color: black;
+    text-align: right;
 }
 
 /* Footer */
@@ -318,11 +319,15 @@ footer {
     justify-content: space-evenly;
 }
 
-.adventures {
+.adventure-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: blue;
+    padding: 10px;
+}
+
+.adventure {
+    margin: 10px;
 }
 
 /* Form */
