@@ -309,14 +309,25 @@ footer {
 
 /* Escapes Page */
 
+.escapes-title {
+    background-color: black;
+}
+
 .escapes-title > h1 p {
     text-align: center;
     font-size: 200%;
+
 }
 
-.escapes-type {
-    display: flex;
-    justify-content: space-evenly;
+.map-image {
+
+}
+
+.map-text {
+    position: absolute;
+    top: 20%;
+    max-width: 300px;
+    margin-left: 30px;
 }
 
 .adventure-container {
@@ -324,10 +335,17 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 10px;
+    background-image: url(/assets/images/wood.png);
 }
 
 .adventure {
     margin: 10px;
+    border: solid white 5px;
+}
+
+.hover-text {
+    position: absolute;
+    top: 20%;
 }
 
 /* Form */
@@ -343,12 +361,11 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     max-width: 400px;
     position: absolute;
     left: 30%;
-    padding: 30px;
-    
+    padding: 30px; 
 }
 
 .signup-form > h2 {

@@ -77,6 +77,7 @@ The live link can be found here - _____
 * https://www.pexels.com/photo/a-father-and-son-giving-high-five-7005559/ 
 * https://wall.alphacoders.com/big.php?i=1009670
 * https://www.wallpaperflare.com/brown-wooden-surface-background-tree-boards-texture-wooden-background-wallpaper-zzsfd/download/2560x1440
+* https://www.pexels.com/photo/beige-analog-compass-697662/
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
