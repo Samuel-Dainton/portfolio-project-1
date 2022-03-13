@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #333;
+}
+
+img {max-width: 100%;
+    max-height: 100%;    
 }
 
 body {
@@ -14,6 +17,11 @@ body {
 }
 
 /* Logo and Nav Links */
+
+header {
+    padding: 30px 0 30px 0;
+    background-image: url(/assets/images/wood.png);
+}
 
 nav {
     display: flex;
@@ -28,8 +36,11 @@ nav {
 
 h1 {
     text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h2 {text-transform: capitalize;
     letter-spacing: 4px;
-    color: whitesmoke;
 }
 
 p {
@@ -37,7 +48,6 @@ p {
 }
 
 #logo {
-    /* float: left; */
     font-size: 280%;
     margin-left: 30px;
 }
@@ -49,20 +59,21 @@ p {
     display: inline-flex;
 }
 
-#menu,
-#logo {
-    line-height: 75px;
-}
 
-#menu li {
-    /* float: right; */
-    list-style-type: none;
-    margin-right: 30px;
+#logo a {
+    line-height: 75px;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu a:hover {
@@ -72,7 +83,6 @@ p {
 }
 
 .inactive {
-    background-color: #333;
     padding: 5px;
 }
 
@@ -84,17 +94,20 @@ p {
 
 /* Hero image and Text */
 
-.hero-flex {
+.container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 600px;
-
+    height: 500px;
+    background-image: url(/assets/images/room4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
 }
 
-.hero-flex>div {
+.hero-flex > div {
     box-sizing: border-box;
-    width: 100%;
+    width: 200px;
     border: solid #333 10px;
 
 
@@ -102,6 +115,18 @@ p {
     animation-name: bee-focus;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(110%, -10%);
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px;
+    width: 300px;
+    border: black 5px solid;
+    background-color: #4ea6b2;
 }
 
 /* Focus animation code */
@@ -136,6 +161,8 @@ p {
 #feature-title {
     text-align: center;
     font-size: 180%;
+    padding: 140px 0;
+    color: black;
 }
 
 #feature-text {
@@ -169,38 +196,22 @@ p {
     float: left;
 }
 
-.hero {
-    height: 600px;
-}
-
 .container {
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 30px;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    border-radius: 20px 20px 0px 20px;
-    /* Fix this */
-    background-color: #ff6826;
 }
 
 .break {
     width: 100%;
-    height: 100px;
+    height: 160px;
+    background-image: url(/assets/images/wood2.png);
 }
 
 /* Details section */
 
 #details-image {
     padding: 100px 0 100px 0;
-    background: url("/assets/images/bee-image.jpg") no-repeat center; 
 /* Fix this */    
     background-color: none;
 }
@@ -224,7 +235,7 @@ p {
 }
 
 #center-image {
-    background: url(/assets/images/high-five.png) no-repeat center center;
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -250,10 +261,6 @@ footer {
 }
 
 /* Escapes Page */
-
-.escapes-title {
-    padding-top: 30px;
-}
 
 .escapes-title > h1 p {
     text-align: center;

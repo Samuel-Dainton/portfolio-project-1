@@ -33,6 +33,8 @@ and what we did to fix them. If you have  unfixed bugs, you should detail them h
 
 ## Bugs
 
+The logo (id="logo") doesn't inherit the text color from the body so I had to define it in the id's css.
+
 ### Solved Bugs
 
 ### Remaining Bugs
@@ -73,7 +75,8 @@ The live link can be found here - _____
 
 * https://pxhere.com/en/photo/1039470
 * https://www.pexels.com/photo/a-father-and-son-giving-high-five-7005559/ 
-
+* https://wall.alphacoders.com/big.php?i=1009670
+* https://www.wallpaperflare.com/brown-wooden-surface-background-tree-boards-texture-wooden-background-wallpaper-zzsfd/download/2560x1440
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
