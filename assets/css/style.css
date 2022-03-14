@@ -255,12 +255,9 @@ p {
     margin: 0 auto;
 }
 
-#circle-image {
-    background: url(/assets/images/high-five.png) no-repeat center center;
-    height: 100%;
+#circle-container>img {
     border-radius: 50%;
 }
-
 
 #left-benefits {
     background-color: rgba(255, 255, 255, 0.7);
@@ -423,14 +420,6 @@ span {
 
 /* Media device size queries */
 
-@media screen and (max-width: 610px) {
-    .logo {
-        font-size: 40%;
-        font-weight: bold;
-    }
-
-}
-
 @media screen and (max-width: 1399px) {
     .centered {
         transform: translate(0%, -10%);
@@ -459,14 +448,12 @@ span {
 @media screen and (max-width: 1023px) {
     #left-benefits {
         width: 80%;
-        text-align: center;
     }
 
     #right-benefits {
         width: 80%;
-        text-align: center;
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {
@@ -474,25 +461,110 @@ span {
         transform: translate(-50%, 20%);
         width: 230px;
     }
+    .container {
+        height: 600px;
+    }
+
     .flex {
         width: auto;
     }
-    #benefits-image > h1 {
+
+    #benefits-image>h1 {
         font-size: 180%;
+    }
+
+    #circle-container {
+        height: 300px;
+        width: 300px;
     }
 }
 
+@media screen and (max-width: 610px) {
+    .logo {
+        font-size: 40%;
+        font-weight: bold;
+    }
+
+}
+
 @media screen and (max-width: 539px) {
-    #benefits-image > h1 {
+
+    h1 {
+        letter-spacing: 4px;
+    }
+
+    h2 {
+        letter-spacing: 2px;
+    }
+
+    #benefits-image>h1,
+    h2 {
         font-size: 120%;
     }
+
     #left-benefits {
         width: 100%;
-        text-align: center;
     }
 
     #right-benefits {
         width: 100%;
-        text-align: center;
+    }
+
+    #circle-container {
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    header {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .logo {
+        padding-bottom: 10px;
+    }
+
+    .logo a {
+        line-height: 25px;
+    }
+
+    #benefits-image>h1,
+    h2 {
+        font-size: 100%;
+    }
+
+    #right-benefits>p {
+        font-size: 90%;
+    }
+
+    #left-benefits>p {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+
+    .centered {
+        padding: 0px;
+    }
+
+    #benefits-image {
+        padding: 10px 10px 10px 10px;
+    }
+
+    #circle-container {
+        height: 200px;
+        width: 200px;
+    }
+
+    #left-benefits {
+        width: 110%;
+    }
+
+    #right-benefits {
+        width: 110%;
     }
 }
