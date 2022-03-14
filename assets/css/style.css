@@ -17,6 +17,19 @@ body {
     font-weight: 300;
 }
 
+h1 {
+    letter-spacing: 6px;
+}
+
+h2 {
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+p {
+    font-family: 'Zilla Slab', sans-serif;
+}
+
 /* Logo and Nav Links */
 
 header {
@@ -31,33 +44,17 @@ nav {
     flex-wrap: wrap;
 }
 
-.menu-list {
+.menu {
     display: flex;
     flex-direction: column-reverse;
 }
 
-
-h1 {
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
-
-h2 {
-    text-transform: capitalize;
-    letter-spacing: 4px;
-}
-
-p {
-    font-family: 'Zilla Slab', sans-serif;
-}
-
-#menu {
-    font-size: 110%;
+.menu-list {
+    font-size: 190%;
     letter-spacing: 4px;
     flex-direction: row-reverse;
     display: inline-flex;
 }
-
 
 .logo a {
     text-transform: uppercase;
@@ -69,21 +66,17 @@ p {
     color: whitesmoke;
 }
 
-.logo i {
-    font-size: 300%;
-}
-
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a:hover {
+.menu a:hover {
     background-color: #a23b34;
     padding: 5px;
     border-radius: 5px;
@@ -106,15 +99,16 @@ p {
     flex-direction: column;
     width: 100%;
     height: 700px;
-    margin-top: 30px;
     background-image: url(/assets/images/room4.png);
     background-repeat: no-repeat;
     background-position: center;
     animation-name: image-focus;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    /* Fix this - white behind animation */
-    background-color: #2b1b18;
+    position: relative;
+    text-align: center;
+    color: white;
+
 }
 
 .hero-flex>div {
@@ -141,12 +135,10 @@ p {
 @keyframes image-focus {
     from {
         filter: blur(20px);
-        transform: scale(1.0);
     }
 
     to {
         filter: blur(0);
-        transform: scale(1.1);
     }
 }
 
@@ -167,6 +159,15 @@ p {
 
 /* Featured room css */
 
+.features {
+    width: 660px;
+    height: 400px;
+    text-align: center;
+    border: whitesmoke solid 5px;
+    font-size: 120%;
+    margin: 30px;
+}
+
 #feature-title {
     text-align: center;
     font-size: 180%;
@@ -174,14 +175,12 @@ p {
     color: black;
 }
 
-#feature-text {
-    text-align: center;
-    font-size: 120%;
-    margin: 30px;
-}
-
 #feature-list {
     list-style-type: none;
+}
+
+#feature-text {
+    padding-top: 10px;
 }
 
 .flex {
@@ -192,25 +191,10 @@ p {
     background: black;
 }
 
-.flex>div {
-    width: 40%;
-    min-width: 665px;
-    height: 400px;
-    text-align: center;
-    border: whitesmoke solid 5px;
-
-}
-
 .blackbeard-info {
     width: 40%;
     height: 300px;
     float: left;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
 }
 
 .break {
@@ -222,18 +206,17 @@ p {
 .video {
     width: 100%;
     height: 100%;
-    content: autoplay muted;
 }
 
 /* benefits section */
 
-#benefits-image {
+.benefits-image {
     background-image: url(/assets/images/room-image.png);
-    padding: 100px 30px 100px 30px;
+    padding: 120px 30px 100px 30px;
     max-height: 1133px;
 }
 
-#benefits-image>h1 {
+.benefits-image>h1 {
     text-align: center;
     font-size: 300%;
 }
@@ -421,6 +404,13 @@ span {
 
 /* Media device size queries */
 
+@media screen and (min-width: 1024px) {
+
+    .social-networks {
+        font-size: 200%;
+    }
+}
+
 @media screen and (max-width: 1399px) {
     .centered {
         transform: translate(0%, -10%);
@@ -431,7 +421,7 @@ span {
         flex-direction: column;
     }
 
-    #benefits-image {
+    .benefits-image {
         padding: 30px 30px 30px 30px;
     }
 
@@ -468,9 +458,23 @@ span {
 }
 
 @media screen and (max-width: 767px) {
+    .logo {
+        font-size: 80%;
+        font-weight: bold;
+    }
+
+    .menu-list {
+        font-size: 190%;
+    }
+
     .centered {
         transform: translate(-50%, 20%);
         width: 230px;
+    }
+
+    #feature-title {
+        font-size: 100%;
+        padding: 80px;
     }
 
     .container {
@@ -481,7 +485,7 @@ span {
         width: auto;
     }
 
-    #benefits-image>h1 {
+    .benefits-image>h1 {
         font-size: 180%;
     }
 
@@ -489,17 +493,17 @@ span {
         height: 300px;
         width: 300px;
     }
+
     .signup-form {
         left: 10%;
     }
-}
 
-@media screen and (max-width: 610px) {
-    .logo {
-        font-size: 40%;
-        font-weight: bold;
+    .features {
+        width: 320px;
+        height: 180px;
+        font-size: 57%;
+        margin: 5px;
     }
-
 }
 
 @media screen and (max-width: 539px) {
@@ -512,8 +516,9 @@ span {
         letter-spacing: 2px;
     }
 
-    #benefits-image>h1,
-    h2 {
+    .benefits-image>h1,
+    h2,
+    h3 {
         font-size: 120%;
     }
 
@@ -534,8 +539,17 @@ span {
 }
 
 @media screen and (max-width: 424px) {
+    .logo {
+        font-size: 40%;
+        font-weight: bold;
+    }
+
+    .menu-list {
+        font-size: 100%;
+    }
+
     header {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 10px 20px 10px;
     }
 
     .logo {
@@ -546,8 +560,22 @@ span {
         line-height: 25px;
     }
 
-    #benefits-image>h1,
-    h2 {
+    .break {
+        height: 95px;
+    }
+
+    .features {
+        width: 220px;
+        height: 170px;
+        font-size: 50%;
+    }
+    #video {
+        height: 130px;
+    }
+
+    .benefits-image>h1,
+    h2,
+    h3 {
         font-size: 100%;
     }
 
@@ -566,10 +594,6 @@ span {
         padding: 0px;
     }
 
-    #benefits-image {
-        padding: 10px 10px 10px 10px;
-    }
-
     #circle-container {
         height: 200px;
         width: 200px;
@@ -582,4 +606,4 @@ span {
     #right-benefits {
         width: 110%;
     }
-} 
+}
