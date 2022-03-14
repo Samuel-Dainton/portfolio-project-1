@@ -349,10 +349,9 @@ footer {
     position: relative;
     top: -102%;
     text-align: center;
-    background-color: rgba(255, 104, 38, .7);
+    background-color: rgba(255, 104, 38, .4);
     height: 300px;
     width: 300px;
-
 }
 
 span {
@@ -360,12 +359,19 @@ span {
     text-align: center;
 }
 
+/* .adventure:hover, .top:hover,.bottom:hover {
+    display: block;
+} */
+
 .top {
     top: 0;
+    font-size: 150%;
+    /* display: none; */
 }
 
 .bottom {
     bottom: 0;
+    /* display: none; */
 }
 
 /* Form */
