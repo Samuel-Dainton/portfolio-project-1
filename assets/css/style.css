@@ -19,7 +19,7 @@ body {
 /* Logo and Nav Links */
 
 header {
-    padding: 30px 0 30px 0;
+    padding: 30px 0 30px 30px;
     background-image: url(/assets/images/wood.png);
     
 }
@@ -27,6 +27,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu-list {
@@ -48,11 +49,6 @@ p {
     font-family: 'Zilla Slab', sans-serif;
 }
 
-#logo {
-    font-size: 280%;
-    margin-left: 30px;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -64,7 +60,6 @@ p {
 .logo a {
     text-transform: uppercase;
     font-family: Zilla Slab, sans-serif;
-    margin-left: 30px;
     font-size: 400%;
     letter-spacing: 6px;
     line-height: 75px;
@@ -131,7 +126,7 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(110%, -10%);
+    transform: translate(90%, -10%);
     padding: 10px;
     border-radius: 20px 20px 0px 20px;
     width: 300px;
@@ -197,6 +192,7 @@ p {
 
 .flex>div {
     width: 40%;
+    min-width: 665px;
     height: 400px;
     text-align: center;
     border: whitesmoke solid 5px;
@@ -421,4 +417,29 @@ span {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* Media device size queries */
+
+@media screen and (max-width: 610px) {
+    .logo {
+        font-size: 40%;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) {
+    .centered {transform: translate(0%, -10%);    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .centered {transform: translate(-50%, 20%); 
+                width: 230px;
+    }
+
+    .video {
+        width: 300px;
+    }
 }
