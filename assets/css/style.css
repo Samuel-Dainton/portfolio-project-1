@@ -457,6 +457,13 @@ span {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .flex {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .logo {
         font-size: 80%;
@@ -499,9 +506,9 @@ span {
     }
 
     .features {
-        width: 320px;
-        height: 180px;
-        font-size: 57%;
+        width: 420px;
+        height: 231px;
+        font-size: 76%;
         margin: 5px;
     }
 }
@@ -516,25 +523,32 @@ span {
         letter-spacing: 2px;
     }
 
-    .benefits-image>h1,
-    h2,
-    h3 {
-        font-size: 120%;
-    }
+.features {
+    width: 320px;
+    height: 180px;
+    font-size: 57%;
+    margin: 5px;
+}
 
-    #left-benefits {
-        width: 100%;
-    }
+.benefits-image>h1,
+h2,
+h3 {
+    font-size: 120%;
+}
 
-    #right-benefits {
-        width: 100%;
-    }
+#left-benefits {
+    width: 100%;
+}
 
-    #circle-container {
-        height: 250px;
-        width: 250px;
-        padding: 10px;
-    }
+#right-benefits {
+    width: 100%;
+}
+
+#circle-container {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
 
 }
 
@@ -569,6 +583,7 @@ span {
         height: 170px;
         font-size: 50%;
     }
+
     #video {
         height: 130px;
     }
