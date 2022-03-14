@@ -11,10 +11,15 @@ http://ami.responsivedesign.is/
 ## Features
 
 
-### Navigation
-### Header
+### Header & Navigation
+The header features the logo and it's 3 navigational links. The logo is itself also a link back to the home page. The font changes size based on the media device size to accomadate for it's long title.
+The Nav bar consists of 3 links to the index, escapes and forum pages. The 3 nav links are highlighted orange when hovered over and remain active when going to the selected link.
 ### Images
+The images used are either placed in img elements or as background images through the css. I made the decisions on which they should be based on if the image worked well in its original size for different screen sizes or if it needed to scale to have a clear reason for it being there.
+### Hero Image and Cover Text
+The hero image changed a number of times during the creation of the site and was the major difining element in the look of the website overall. It features 4 curious explorers of an escape room and positions itself well enough across all screen sizes to give an element of mystery and theme to the website. The cover text gives a simple explination of the site so that visitors are immediately familiar with what information to expect.
 ### Footer
+The footer is simple in design and features links to the websites social media outlets if it had them. I feel the style of the footer works strongly with the look of the site across all pages. It also suits different screen sizes very well.
 ### Other Page...
 We have a features section, which includes  screenshots of all the main features,  
 and a few lines about what each feature  does and why it benefits the user.
@@ -33,9 +38,10 @@ and what we did to fix them. If you have  unfixed bugs, you should detail them h
 
 ## Bugs
 
-The logo (id="logo") doesn't inherit the text color from the body so I had to define it in the id's css.
+The logo (class="logo" <a>) doesn't inherit the text color from the body so I had to define it in the class's css.
 
 ### Solved Bugs
+
 
 ### Remaining Bugs
 
@@ -69,7 +75,7 @@ The live link can be found here - _____
 
 ### Content
 
-* The code to make the social media links was taken from the CI Love Running Project.
+* The code to make the social media links and forum signup input was adapted from the Code Institute Love Running Project.
 
 ### Media
 

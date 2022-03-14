@@ -312,9 +312,10 @@ footer {
 
 .map-text {
     position: absolute;
-    top: 20%;
-    max-width: 300px;
+    top: 15%;
+    max-width: 750px;
     margin-left: 30px;
+    font-size: 150%;
 }
 
 .adventure-container {
@@ -443,6 +444,12 @@ span {
         width: 50%;
         text-align: center;
     }
+
+
+    .map-text {
+        max-width: 650px;
+        font-size: 120%;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -454,6 +461,10 @@ span {
         width: 80%;
     }
 
+    .map-text {
+        max-width: 650px;
+        font-size: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -461,6 +472,7 @@ span {
         transform: translate(-50%, 20%);
         width: 230px;
     }
+
     .container {
         height: 600px;
     }
@@ -476,6 +488,9 @@ span {
     #circle-container {
         height: 300px;
         width: 300px;
+    }
+    .signup-form {
+        left: 10%;
     }
 }
 
@@ -567,4 +582,4 @@ span {
     #right-benefits {
         width: 110%;
     }
-}
+} 
