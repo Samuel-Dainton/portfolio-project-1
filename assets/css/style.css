@@ -341,11 +341,31 @@ footer {
 .adventure {
     margin: 10px;
     border: solid white 5px;
+    height: 300px;
+    width: 300px;
 }
 
 .hover-text {
+    position: relative;
+    top: -102%;
+    text-align: center;
+    background-color: rgba(255, 104, 38, .7);
+    height: 300px;
+    width: 300px;
+
+}
+
+span {
     position: absolute;
-    top: 20%;
+    text-align: center;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
 }
 
 /* Form */
