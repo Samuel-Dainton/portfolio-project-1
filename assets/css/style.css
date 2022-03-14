@@ -246,13 +246,9 @@ p {
     align-items: center;
 }
 
-#center-parent {
-    width: 33%;
-}
-
 #circle-container {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -270,7 +266,7 @@ p {
 
 #left-benefits {
     background-color: rgba(255, 255, 255, 0.7);
-    width: 33%;
+    width: 30%;
     border-radius: 10px;
     padding: 10px;
     color: black;
@@ -278,7 +274,7 @@ p {
 
 #right-benefits {
     background-color: rgba(255, 255, 255, 0.7);
-    width: 33%;
+    width: 30%;
     border-radius: 10px;
     padding: 10px;
     color: black;
@@ -316,10 +312,6 @@ footer {
 .escapes-title > h1 p {
     text-align: center;
     font-size: 200%;
-
-}
-
-.map-image {
 
 }
 
