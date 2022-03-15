@@ -40,6 +40,9 @@ and what we did to fix them. If you have  unfixed bugs, you should detail them h
 
 The logo (class="logo" <a>) doesn't inherit the text color from the body so I had to define it in the class's css.
 
+The focus image for the hero image of the escapes page was targetting the wood background image at the bottom as well as the image and text. This was an easy fix, but for some reason moving the animation to focus on the img and text of the .wood-bg also changed the "top" property that kept the text positioned on the map correctly, so I had to go back and change all the "top" percentages for the map-text class and also all of the different media query break points.
+I also noticed that using the inspection tool was making it difficult to fix this as using a view percentage of anythign other than 100% would move the text.
+
 ### Solved Bugs
 
 
