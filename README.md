@@ -1,8 +1,8 @@
 # Escape Manchester
 
-The Escape Manchester website is a landing page for groups and individuals to learn more about the various Escape Rooms that operate in and around the city of Manchester, UK. It offers details of some of the rooms available such as their difficulty, recommended group size and a link to their website.
+The Escape Manchester website is a landing page for groups and individuals to learn more about the various Escape Rooms that operate in and around the city of Manchester, UK. It offers brief details of some of the rooms available such as their difficulty, recommended group size and a link to their website.
 
-Users can also sign up to the forum to talk to others that have a keen interest in these rooms to share their experiences and perhaps make new friends to tackle these challenges with. There are also social media links for the group and a newsletter signup link at the footer of the page.
+Users are encouraged to sign up to the forum to talk to others that have a keen interest in these rooms to share their experiences and perhaps make new friends to tackle these challenges with. There are also social media links for the group and a newsletter signup link included when registering for the forum.
 
 http://ami.responsivedesign.is/
 
@@ -43,11 +43,18 @@ The footer is simple in design and features links to what would be the websites 
 ### Chose Your Adventure
 On the Escapes page of the site the user first sees the hero image and text which are formatted similarly to the home page to add to the continuity of the site. An explination for the page sits ontop of or underneath the hero image of the page depending on the screen size to give users a better understanding of the following content. It again pushes interested users towards the forums.
 
-![Adventure Image](/assets/images/readme-screenshots/map-screenshot.png)
+![Map Image](/assets/images/readme-screenshots/map-screenshot.png)
 
 ### Adventure Cards
-The escape room cards feature information similar to what the user will have seen on the first page and use icons to keep information simple and tight.
+The escape room cards feature information similar to what the user will have seen on the first page and use icons to keep information simple and tight. Each of the images react when hovered over and link to the websites of the featured escape rooms in new tabs. The site rotates the cards monthly to encourage visitors to return to the website.
 
+![Cards Image](/assets/images/readme-screenshots/adventure-screenshot.png)
+
+### Forum Signup and Thankyou
+The forum page follows the design on the others and features a form with text, email, select and radio inputs. When submitting their information the user is sent to an identical page with a thank you message prompting them that they have been sent a confirmation email.
+
+![Forum Image](/assets/images/readme-screenshots/forum-screenshot.png)
+![Thank You Image](/assets/images/readme-screenshots/thanks-screenshot.png)
 
 ## Testing 
 
@@ -55,11 +62,6 @@ The escape room cards feature information similar to what the user will have see
 * I tested that the site is responsive and adapts to look good and fuction properly on all standard screen sizes using the devtools built into Chrome.
 * I confirmed that all the nav elements work and that all the content is easy to read and understand using Lighthouse to score the sites accessibility.
 * I confirmed that all the form entry fields are set correctly, being required where necessary and only allowing the correct type of data input, such as the email field.
-
-Our testing section should prove to our assessor  that we have checked that our site functions as expected.
-We do this by outlining the manual testing  we have done, for example checking that the form  
-validates input. We also outline any bugs we  found while creating and testing our project  
-and what we did to fix them. If you have  unfixed bugs, you should detail them here too.
 
 ## Bugs
 
