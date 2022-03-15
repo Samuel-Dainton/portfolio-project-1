@@ -163,7 +163,7 @@ nav {
     width: 660px;
     height: 400px;
     text-align: center;
-    border: whitesmoke solid 5px;
+    border: #fe6c2e solid 5px;
     font-size: 120%;
     margin: 30px;
 }
@@ -181,6 +181,7 @@ nav {
 
 #feature-text {
     padding-top: 10px;
+    color: #fe6c2e;
 }
 
 .flex {
@@ -283,8 +284,8 @@ footer {
 
 /* Escapes Page */
 
-.escapes-title {
-    background-color: black;
+.wood-bg {
+    background-image: url(/assets/images/wood3.png);
 }
 
 .escapes-title>h1 p {
@@ -295,7 +296,7 @@ footer {
 
 .map-text {
     position: absolute;
-    top: 15%;
+    top: 13%;
     max-width: 750px;
     margin-left: 30px;
     font-size: 150%;
@@ -306,7 +307,7 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 10px;
-    background-image: url(/assets/images/wood.png);
+    background-image: url(/assets/images/slate2.png);
 }
 
 .adventure {
@@ -437,8 +438,9 @@ span {
 
 
     .map-text {
-        max-width: 650px;
+        max-width: 550px;
         font-size: 120%;
+        top: 13%;
     }
 }
 
@@ -452,8 +454,20 @@ span {
     }
 
     .map-text {
-        max-width: 650px;
+        max-width: 550px;
         font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .map-text {
+        position: unset;
+        text-align: center;
+        padding: 15px;
+    }
+    .map-text > h1 {
+        position: absolute;
+        top: 18%;
     }
 }
 
@@ -523,32 +537,32 @@ span {
         letter-spacing: 2px;
     }
 
-.features {
-    width: 320px;
-    height: 180px;
-    font-size: 57%;
-    margin: 5px;
-}
+    .features {
+        width: 320px;
+        height: 180px;
+        font-size: 57%;
+        margin: 5px;
+    }
 
-.benefits-image>h1,
-h2,
-h3 {
-    font-size: 120%;
-}
+    .benefits-image>h1,
+    h2,
+    h3 {
+        font-size: 120%;
+    }
 
-#left-benefits {
-    width: 100%;
-}
+    #left-benefits {
+        width: 100%;
+    }
 
-#right-benefits {
-    width: 100%;
-}
+    #right-benefits {
+        width: 100%;
+    }
 
-#circle-container {
-    height: 250px;
-    width: 250px;
-    padding: 10px;
-}
+    #circle-container {
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+    }
 
 }
 
@@ -580,7 +594,7 @@ h3 {
 
     .features {
         width: 220px;
-        height: 170px;
+        height: 190px;
         font-size: 50%;
     }
 
@@ -600,6 +614,11 @@ h3 {
 
     #left-benefits>p {
         font-size: 90%;
+    }
+    .map-text > h1 {
+        position: absolute;
+        top: 8.5%;
+        font-size: 100%;
     }
 }
 
