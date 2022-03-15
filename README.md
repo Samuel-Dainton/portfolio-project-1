@@ -76,6 +76,7 @@ The live link can be found here - _____
 ### Content
 
 * The code to make the social media links and forum signup input was adapted from the Code Institute Love Running Project.
+https://www.w3schools.com/howto/howto_css_zoom_hover.asp
 
 ### Media
 
