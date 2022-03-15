@@ -14,15 +14,40 @@ http://ami.responsivedesign.is/
 ### Header & Navigation
 The header features the logo and it's 3 navigational links. The logo is itself also a link back to the home page. The font changes size based on the media device size to accomadate for it's long title.
 The Nav bar consists of 3 links to the index, escapes and forum pages. The 3 nav links are highlighted orange when hovered over and remain active when going to the selected link.
+
+![Header](/assets/images/readme-screenshots/header-screenshot.png)
+
 ### Images
 The images used are either placed in img elements or as background images through the css. I made the decisions on which they should be based on if the image worked well in its original size for different screen sizes or if it needed to scale to have a clear reason for it being there.
+
 ### Hero Image and Cover Text
 The hero image changed a number of times during the creation of the site and was the major difining element in the look of the website overall. It features 4 curious explorers of an escape room and positions itself well enough across all screen sizes to give an element of mystery and theme to the website. The cover text gives a simple explination of the site so that visitors are immediately familiar with what information to expect.
+
+![Hero Image](/assets/images/readme-screenshots/hero-screenshot.png)
+
+### Featured Section
+The featured section gives the user a video advert for the featured escape room to interact with and is followed with a positive review to encourage users into trying the escape room. Icons are used with text to give information on the recommended party size, time constraint, difficulty and the websites score for the escape. It also encourages visitors towards using the forums.
+
+!
+
+### Benefits Section
+This section highlights some of the benefits of playing escape rooms and encourages readers to try them out regardless of group size or age. It uses 3 divs inside of a flexbox to position the information neatly across a variety of screen sizes, the image is resized manually when the screen size gets too small so that it doesn't overflow or push the text out of the image into the footer. 
+
+![Benefits Image](/assets/images/readme-screenshots/why-screenshot.png)
+
 ### Footer
-The footer is simple in design and features links to the websites social media outlets if it had them. I feel the style of the footer works strongly with the look of the site across all pages. It also suits different screen sizes very well.
-### Other Page...
-We have a features section, which includes  screenshots of all the main features,  
-and a few lines about what each feature  does and why it benefits the user.
+The footer is simple in design and features links to what would be the websites social media outlets. The icons react when hovered over by increasing in size by a ratio of 1.1 over 0.2 seconds. They also decrease in size on smaller screen sizes.
+
+![Footer Image](/assets/images/readme-screenshots/footer-screenshot.png)
+
+### Chose Your Adventure
+On the Escapes page of the site the user first sees the hero image and text which are formatted similarly to the home page to add to the continuity of the site. An explination for the page sits ontop of or underneath the hero image of the page depending on the screen size to give users a better understanding of the following content. It again pushes interested users towards the forums.
+
+![Adventure Image](/assets/images/readme-screenshots/map-screenshot.png)
+
+### Adventure Cards
+The escape room cards feature information similar to what the user will have seen on the first page and use icons to keep information simple and tight.
+
 
 ## Testing 
 
@@ -38,15 +63,18 @@ and what we did to fix them. If you have  unfixed bugs, you should detail them h
 
 ## Bugs
 
+### Solved Bugs
+
+Clicking the Submit button on the forum page was giving me an error. I found that I needed to change the method of the form from POST to GET.
+
+I had a lot of issues getting elements and images positioned the way I wanted with the lessons I had been tought on the course so far. I took the time to learn and experiment with flex box which solved many of the issues I had.
+
+### Remaining Bugs
+
 The logo (class="logo" <a>) doesn't inherit the text color from the body so I had to define it in the class's css.
 
 The focus image for the hero image of the escapes page was targetting the wood background image at the bottom as well as the image and text. This was an easy fix, but for some reason moving the animation to focus on the img and text of the .wood-bg also changed the "top" property that kept the text positioned on the map correctly, so I had to go back and change all the "top" percentages for the map-text class and also all of the different media query break points.
 I also noticed that using the inspection tool was making it difficult to fix this as using a view percentage of anythign other than 100% would move the text.
-
-### Solved Bugs
-
-
-### Remaining Bugs
 
 ## Validator Testing
 
