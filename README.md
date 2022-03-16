@@ -122,7 +122,7 @@ Lighthouse recommends I change the eventListener which is in the YouTube player 
 I managed to achieve high scores across Accessibility, Best Practices and SEO.
 
 Performance however is affected greatly by 2 factors. 
-* Lighthouse recommended I use an .avif format, this increased the time it took to load them. In future I intend to try using an .svg format.
+* Lighthouse recommended I use an .avif format, this reduced the score by quite a margin and I don't fully understand why. However I did intend to keep the format as it doesn't appear to have had any noticible negative effect on any of my images. In future I intend to try using an .svg format.
 * My hero images have an animation time of 3 seconds where they come into focus. Lighthouse sees this as that the text and image are unable to be interacted with and severly caps the score. So on this matter I'm not bothered, as I do believe the animation adds to the appeal of the site. 
 
 ![Lighthouse Image](/assets/images/readme-screenshots/lighthouse.png)
@@ -147,7 +147,9 @@ The live link can be found here - https://samuel-dainton.github.io/portfolio-pro
 
 * The icons used are from [Font Awesome](https://fontawesome.com/)
 
-* Also a big thank you to Jim, community dev for Code Institute who helped me better understand chrome's dev tools, flexbox and to get my project off to a proper start.
+* The fonts used are from [Google Fonts](https://fonts.google.com/) 
+
+* I would also like to give a big thank you to Jim, community dev for Code Institute who helped me better understand chrome's dev tools, flexbox and to get my project off to a proper start.
 
 
 ### Media
@@ -161,3 +163,9 @@ The live link can be found here - https://samuel-dainton.github.io/portfolio-pro
 * [Desk](https://pixabay.com/illustrations/live-escape-game-live-escape-room-1155620/)
 
 All escape room card images were taken from their respective websites.
+
+### Final Thoughts
+
+I feel like I would have had a much easier of a time on this project if I had all the knowledge I have gained whilst working on this project, so I'm very proud of what I have achieved and how much easier coding in html and css has become for me towards the end of the project.
+
+Thank you for taking the time to go through my project, I hope you enjoyed it.
