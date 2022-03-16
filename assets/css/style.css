@@ -307,13 +307,15 @@ nav {
 
 /* Escapes Page */
 
-.wood-bg {
+/* Map Hero Image and Text */
+
+.map-bg {
     background-image: url(/assets/images/wood3.png);
     padding-bottom: 80px;
 
 }
 
-.wood-bg img {
+.map-bg img {
     animation-name: image-focus;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -345,12 +347,18 @@ nav {
     border-radius: 20px;
 }
 
+/* Adventures */
+
 .adventure-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 10px;
     background-image: url(/assets/images/detective-board.png);
+}
+
+.adventure-card {
+    margin: 10px;
 }
 
 .adventure {
@@ -364,10 +372,6 @@ nav {
     transform: scale(1.1);
 }
 
-.adventure-card {
-    margin: 10px;
-}
-
 .hover-text {
     position: relative;
     top: -102%;
@@ -377,12 +381,7 @@ nav {
     width: 300px;
 }
 
-span {
-    position: absolute;
-    text-align: center;
-}
-
-.top {
+.card-top {
     border: 1px solid black;
     font-size: 165%;
     text-align: center;
@@ -393,7 +392,7 @@ span {
     padding-top: 5px;
 }
 
-.bottom {
+.card-bottom {
     border: 1px solid black;
     font-size: 145%;
     text-align: center;
@@ -405,7 +404,9 @@ span {
     padding-bottom: 5px;
 }
 
-/* Form */
+/* Forum Page */
+
+/* Signup Form */
 
 .form-section {
     clear: left;
@@ -434,11 +435,6 @@ span {
     font-weight: 100;
 }
 
-
-.form-line-height {
-    line-height: 30px;
-}
-
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -462,12 +458,14 @@ span {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-
 }
 
 .text-input:hover {
     border-color: rgba(78, 166, 178);
+}
 
+.form-line-height {
+    line-height: 30px;
 }
 
 .join-button {
@@ -554,7 +552,7 @@ span {
         top: -45%;
     }
 
-    .wood-bg {
+    .map-bg {
         padding-bottom: 20px;
     }
 
@@ -656,7 +654,7 @@ span {
         padding: 10px 10px 20px 10px;
     }
 
-    .braker {
+    .breaker {
         height: 95px;
     }
 
