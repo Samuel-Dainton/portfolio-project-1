@@ -119,7 +119,8 @@ Lighthouse recommends I change the eventListener which is in the YouTube player 
  * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 W3c HTML Validator
-Accessibility score using Lighthouse
+### Accessibility score using Lighthouse
+![Lighthouse Image](/assets/images/readme-screenshots/lighthouse.png)
 
 As part of our testing we checked our project  using the W3C HTML validator and it passes, and  
 the W3C CSS validator and it all passes there as  well. So noting this in our README is important.
