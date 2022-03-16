@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Zilla+Slab&display=swap');
 
+html {
+    background-color: gray;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,8 +38,7 @@ p {
 
 header {
     padding: 30px 0 30px 30px;
-    background-image: url(../assets/images/wood.avif);
-
+    background-image: url(../images/wood.avif);
 }
 
 nav {
@@ -108,7 +111,7 @@ nav {
     display: flex;
     width: 100%;
     height: 700px;
-    background-image: url(/assets/images/room4.avif);
+    background-image: url(../images/room4.avif);
     background-repeat: no-repeat;
     background-position: center;
     animation-name: image-focus;
@@ -146,7 +149,7 @@ nav {
 .breaker {
     width: 100%;
     height: 160px;
-    background-image: url(/assets/images/wood2.avif);
+    background-image: url(../images/wood2.avif);
 }
 
 /* This weeks feature */
@@ -156,6 +159,7 @@ nav {
     font-size: 180%;
     padding: 140px 0;
     color: black;
+    background-color: #fff;
 }
 
 .weekly-feature {
@@ -219,7 +223,7 @@ nav {
 /* Benefits of Escape Rooms */
 
 .benefits-image {
-    background-image: url(/assets/images/room-image.avif);
+    background-image: url(../images/room-image.avif);
     padding: 120px 30px 100px 30px;
     max-height: 1133px;
 }
@@ -310,7 +314,7 @@ nav {
 /* Map Hero Image and Text */
 
 .map-bg {
-    background-image: url(/assets/images/wood3.avif);
+    background-image: url(../images/wood3.avif);
     padding-bottom: 80px;
 
 }
@@ -354,7 +358,7 @@ nav {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 10px;
-    background-image: url(/assets/images/detective-board.avif);
+    background-image: url(../images/detective-board.avif);
 }
 
 .adventure-card {
@@ -410,7 +414,7 @@ nav {
 
 .form-section {
     clear: left;
-    background: url(/assets/images/team.jpg);
+    background: url(../images/team.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -425,7 +429,7 @@ nav {
 
 .form-section-submit {
     clear: left;
-    background: url(/assets/images/team.jpg);
+    background: url(../images/team.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
