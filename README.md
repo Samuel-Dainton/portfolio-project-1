@@ -105,6 +105,8 @@ I also noticed that using the inspection tool was making it difficult to fix thi
 
 When testing the site in Lighthouse I had a score of 77 for performance. The tool suggested fixing this by changing my larger .png files to .avif. However, doing so reduced the score to 55 even though the images aren't being flagged as an issue anymore.
 
+Lighthouse recommends I change the eventListener which is in the YouTube player but I haven't found out how to change that.
+
 ## Validator Testing
 
 * HTML
