@@ -26,9 +26,9 @@ Manchester offers a huge number of escape rooms that are growing more and more p
 ### Further Planning
 To plan for my project I made rough drawings of what I wanted. The site ended up looking very little to what I had invisioned in the beginning but I'm happy with the end result and glad that the site feels warm and welcoming as opposed the majority of escape room websites that are dark and gloomy to create an element of horror.
 
-![Planning Image1](/assets/images/readme-screenshots/project-mock1.png)
-![Planning Image2](/assets/images/readme-screenshots/project-mock2.png)
-![Planning Image3](/assets/images/readme-screenshots/project-mock3.png)
+![Planning Image1](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock1.png)
+![Planning Image2](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock2.png)
+![Planning Image3](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock3.png)
 
 ## Features
 
