@@ -4,9 +4,7 @@ The Escape Manchester website is a landing page for groups and individuals to le
 
 Users are encouraged to sign up to the forum to talk to others that have a keen interest in these rooms to share their experiences and perhaps make new friends to tackle these challenges with. There are also social media links for the group and a newsletter sign up link included when registering for the forum.
 
-http://ami.responsivedesign.is/
-
-(Responsive picture)
+![Responsive Test Image](/assets/images/readme-screenshots/responsive.png)
 
 ## UX
 
@@ -26,9 +24,9 @@ Manchester offers a huge number of escape rooms that are growing more and more p
 ### Further Planning
 To plan for my project I made rough drawings of what I wanted. The site ended up looking very little to what I had envisioned in the beginning but I'm happy with the end result and glad that the site feels warm and welcoming as opposed the majority of escape room websites that are dark and gloomy to create an element of horror.
 
-![Planning Image1](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock1.png)
-![Planning Image2](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock2.png)
-![Planning Image3](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock3.png)
+[Planning Image1](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock1.png)
+[Planning Image2](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock2.png)
+[Planning Image3](https://github.com/Samuel-Dainton/portfolio-project-1/blob/main/assets/images/readme-screenshots/project-mock3.png)
 
 ## Features
 
@@ -113,17 +111,15 @@ Lighthouse recommends I change the eventListener which is in the YouTube player 
   * No errors were found when passing through the official W3C validator.
 
 * CSS
- * No errors were found when passing through the official (Jigsaw) validator.
+  * No errors were found when passing through the official (Jigsaw) validator.
 
 * Accessibility
- * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+  * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-W3c HTML Validator
+
 ### Accessibility score using Lighthouse
 ![Lighthouse Image](/assets/images/readme-screenshots/lighthouse.png)
 
-As part of our testing we checked our project  using the W3C HTML validator and it passes, and  
-the W3C CSS validator and it all passes there as  well. So noting this in our README is important.
 
 ## Deployment
 
