@@ -99,9 +99,9 @@ I had a lot of issues getting elements and images positioned the way I wanted wi
 The class="logo">a doesn't inherit the text color from the body so I had to define it in the class's css.
 
 The focus image for the hero image of the escapes page was targetting the wood background image at the bottom as well as the image and text. This was an easy fix, but for some reason moving the animation to focus on the img and text of the .wood-bg also changed the "top" property that kept the text positioned on the map correctly, so I had to go back and change all the "top" percentages for the map-text class and also all of the different media query break points.
-I also noticed that using the inspection tool was making it difficult to fix this as using a view percentage of anythign other than 100% would move the text.
+I also noticed that using the inspection tool was making it difficult to fix this as using a view percentage of anything other than 100% would move the text.
 
-When testing the site in Lighthouse I had a score of 77 for performance. The tool suggested fixing this by changing my larger .png files to .avif. However, doing so reduced the score to 55 even though the images aren't being flagged as an issue any more.
+When testing the site in Lighthouse I had a score of 77 for performance. The tool suggested fixing this by changing my larger .png files to .avif. However, doing so reduced the score to 45 even though the images aren't being flagged for their format as an issue any more.
 
 Lighthouse recommends I change the eventListener which is in the YouTube player but I haven't found out how to change that.
 
