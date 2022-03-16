@@ -23,13 +23,20 @@ Manchester offers a huge number of escape rooms that are growing more and more p
 * As the organisation we want to promote mainly the escape rooms that will encourage players to keep playing.
 * As the organisation we want users to interact with our forums.
 
+### Further Planning
+To plan for my project I made rough drawings of what I wanted. The site ended up looking very little to what I had invisioned in the beginning but I'm happy with the end result and glad that the site feels warm and welcoming as opposed the majority of escape room websites that are dark and gloomy to create an element of horror.
+
+![Planning Image1](/assets/images/readme-screenshots/project-mock1.png)
+![Planning Image2](/assets/images/readme-screenshots/project-mock2.png)
+![Planning Image3](/assets/images/readme-screenshots/project-mock3.png)
+
 ## Features
 
 ### Header & Navigation
 The header features the logo and it's 3 navigational links. The logo is itself also a link back to the home page. The font changes size based on the media device size to accomadate for it's long title.
 The Nav bar consists of 3 links to the index, escapes and forum pages. The 3 nav links are highlighted orange when hovered over and remain active when going to the selected link.
 
-![Header](/assets/images/readme-screenshots/header-screenshot.png)
+![Header Image](/assets/images/readme-screenshots/header-screenshot.png)
 
 ### Images
 The images used are either placed in img elements or as background images through the css. I made the decisions on which they should be based on if the image worked well in its original size for different screen sizes or if it needed to scale to have a clear reason for it being there.
@@ -40,9 +47,9 @@ The hero image changed a number of times during the creation of the site and was
 ![Hero Image](/assets/images/readme-screenshots/hero-screenshot.png)
 
 ### Featured Section
-The featured section gives the user a video advert for the featured escape room to interact with and is followed with a positive review to encourage users into trying the escape room. Icons are used with text to give information on the recommended party size, time constraint, difficulty and the websites score for the escape. It also encourages visitors towards using the forums.
+The featured section is styled around the colors of the featured escape. It gives the user a video advert for the featured escape room to interact with and is followed with a positive review to encourage users into trying the escape room. Icons are used with text to give information on the recommended party size, time constraint, difficulty and the websites score for the escape. It also encourages visitors towards using the forums.
 
-!
+![Featured Image](/assets/images/readme-screenshots/featured-screenshot.png)
 
 ### Benefits Section
 This section highlights some of the benefits of playing escape rooms and encourages readers to try them out regardless of group size or age. It uses 3 divs inside of a flexbox to position the information neatly across a variety of screen sizes, the image is resized manually when the screen size gets too small so that it doesn't overflow or push the text out of the image into the footer. 
@@ -70,6 +77,10 @@ The forum page follows the design on the others and features a form with text, e
 ![Forum Image](/assets/images/readme-screenshots/forum-screenshot.png)
 ![Thank You Image](/assets/images/readme-screenshots/thanks-screenshot.png)
 
+## Future Enhancements
+
+* The adventures section is formatted to make it easy to add and remove the featured list of escapes. As the site gains more users I would increase the number of escapes listed and include ways to filter and arrange the escapes by any of their listed details such as difficulty or group size.
+
 ## Testing 
 
 * I tested that the page works in different browers i.e. Chrome, Firefox, Safari.
@@ -87,10 +98,12 @@ I had a lot of issues getting elements and images positioned the way I wanted wi
 
 ### Remaining Bugs
 
-The logo (class="logo" <a>) doesn't inherit the text color from the body so I had to define it in the class's css.
+The class="logo">a doesn't inherit the text color from the body so I had to define it in the class's css.
 
 The focus image for the hero image of the escapes page was targetting the wood background image at the bottom as well as the image and text. This was an easy fix, but for some reason moving the animation to focus on the img and text of the .wood-bg also changed the "top" property that kept the text positioned on the map correctly, so I had to go back and change all the "top" percentages for the map-text class and also all of the different media query break points.
 I also noticed that using the inspection tool was making it difficult to fix this as using a view percentage of anythign other than 100% would move the text.
+
+When testing the site in Lighthouse I had a score of 77 for performance. The tool suggested fixing this by changing my larger .png files to .avif. However, doing so reduced the score to 55 even though the images aren't being flagged as an issue anymore.
 
 ## Validator Testing
 
@@ -123,15 +136,25 @@ The live link can be found here - _____
 ### Content
 
 * The code to make the social media links and forum signup input was adapted from the Code Institute Love Running Project.
-https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+
+* The focus animation, zoom on hover effect and flexbox were all learned through [W3 Schools](https://www.w3schools.com/)
+
+* The icons used are from [Font Awesome](https://fontawesome.com/)
+
+* Also a big thankyou to Jim, community dev for Code Institue who helped me better understand chromes dev tools, flexbox and to get my project off to a proper start.
+
 
 ### Media
 
-* https://pxhere.com/en/photo/1039470
-* https://www.pexels.com/photo/a-father-and-son-giving-high-five-7005559/ 
-* https://wall.alphacoders.com/big.php?i=1009670
-* https://www.wallpaperflare.com/brown-wooden-surface-background-tree-boards-texture-wooden-background-wallpaper-zzsfd/download/2560x1440
-* https://www.pexels.com/photo/beige-analog-compass-697662/
+* [Father and Son](https://www.pexels.com/photo/a-father-and-son-giving-high-five-7005559/) 
+* [Room Hero](https://wall.alphacoders.com/big.php?i=1009670)
+* [Wood](https://www.wallpaperflare.com.brown-wooden-surface-background-tree-boards-texture-wooden-background-wallpaper-zzsfd/download/2560x1440)
+* [Map](https://www.pexels.com/photo/beige-analog-compass-697662/)
+* [Team](https://www.pexels.com/photo/photo-of-people-having-fist-bump-3228684/)
+* [Detective Board](https://www.pexels.com/photo/man-in-gray-long-sleeve-suit-holding-a-pen-8369520/)
+* [Desk](https://pixabay.com/illustrations/live-escape-game-live-escape-room-1155620/)
+
+All escape room card images were taken from their respective websites.
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
