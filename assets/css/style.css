@@ -115,7 +115,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     animation-name: image-focus;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     position: relative;
     text-align: center;
@@ -323,13 +323,13 @@ nav {
 
 .map-bg img {
     animation-name: image-focus;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 .map-text {
     animation-name: image-focus;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -423,7 +423,7 @@ nav {
     background-position: center;
     height: 900px;
     animation-name: image-focus;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
