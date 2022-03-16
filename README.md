@@ -8,8 +8,22 @@ http://ami.responsivedesign.is/
 
 (Responsive picture)
 
-## Features
+## UX
 
+### Manchester Escape Rooms
+
+Manchester offers a huge number of escape rooms that are growing more and more popular, most of which are fully booked for a full week ahead so it's safe to assume that more will appear in time to meet the demand. The goal of the website is to promote all of the companies fairly and equally to encourage users to view escape rooms they haven't yet tried and to push them towards interacting with the forums to grow a collective of likeminded teams and individuals. It also hopes to highlight the benefits of playing and offer experiences for all age ranges, group sizes and skill.
+
+### User Stories
+* As a user I want to easily find information about the escape rooms in Manchester.
+* As a user I want to easily navigate to escape rooms that interest me.
+* As a user I want to easily have a place to communicate with others who share similar interests.
+* As a user I want a reason to return to the website.
+* As the organisation we want to promote a collection of the escape rooms in Manchester in order of difficulty.
+* As the organisation we want to promote mainly the escape rooms that will encourage players to keep playing.
+* As the organisation we want users to interact with our forums.
+
+## Features
 
 ### Header & Navigation
 The header features the logo and it's 3 navigational links. The logo is itself also a link back to the home page. The font changes size based on the media device size to accomadate for it's long title.
